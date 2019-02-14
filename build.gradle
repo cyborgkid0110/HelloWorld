@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+group 'com.jaguth'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    // All 4 spigot private maven repos are required to download all spigot-api dependencies
+    maven {
+        url 'https://hub.spigotmc.org/nexus/content/repositories/releases/'
+    }
+    maven {
+        url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
+    maven {
+        url 'https://hub.spigotmc.org/nexus/content/groups/public/'
+    }
+    maven {
+        url 'https://hub.spigotmc.org/nexus/content/groups/public/'
+    }
+}
+
+dependencies {
+    compile 'org.spigotmc:spigot-api:1.13.2-R0.1-SNAPSHOT'
+    
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-all:1.10.19'
+}
