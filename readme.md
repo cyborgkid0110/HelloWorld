@@ -1,4 +1,4 @@
-# End To End developer workstation setup
+# End To End developer setup to get a working Spigot plugin up and running in no time
 
 ## Expectations
 
