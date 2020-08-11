@@ -4,7 +4,7 @@ plugins {
 
 group 'com.jaguth'
 version '1.0'
-
+libsDirName = 'D:\\MC Folder\\spigot\\plugins'
 sourceCompatibility = 1.8
 
 repositories {
@@ -25,7 +25,7 @@ repositories {
 }
 
 dependencies {
-    compile 'org.spigotmc:spigot-api:1.13.2-R0.1-SNAPSHOT'
+    compile 'org.spigotmc:spigot-api:1.14.4-R0.1-SNAPSHOT'
     
     testCompile 'junit:junit:4.12'
     testCompile 'org.mockito:mockito-all:1.10.19'
