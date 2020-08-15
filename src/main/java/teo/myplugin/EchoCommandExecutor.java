@@ -1,4 +1,4 @@
-package com.jaguth.spigotpluggin.helloworld;
+package teo.myplugin;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;

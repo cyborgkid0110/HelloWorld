@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'com.jaguth'
+group ''
 version '1.0'
 libsDirName = 'D:\\MC Folder\\spigot\\plugins'
 sourceCompatibility = 1.8

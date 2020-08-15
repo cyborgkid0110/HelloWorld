@@ -1,9 +1,16 @@
 name: HelloWorld
-author: jaguth
+author: teo
 description: An Example of how to create a simple Spigot plugin
 version: 1.0
-main: com.jaguth.spigotpluggin.helloworld.HelloWorldPluggin
+main: teo.myplugin.MainPlugin
+api-version: 1.14
 commands:
   echo:
     description: Echos a message to everyone
     usage: "Usage: /echo <your message>"
+  aci:
+      description: Toggle aci
+      usage: "Usage: /aci"
+  randomhp:
+    description: Toggle random hp
+      usage: "Usage: /randomhp"
